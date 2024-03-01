@@ -4,8 +4,8 @@ from random import choice, randint
 
 
 def handle_response(message) -> str:
-    p_message: str = message.lower()
-
     # Just returns the message the user replied to for now
     # TODO: Implement AI algorithm
+    p_message: str = message.lower()
     return p_message
+
